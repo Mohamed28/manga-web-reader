@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://mohamed28.github.io/manga-web-reader/js/main.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://mohamed28.github.io/manga-web-reader/css/main.css">
-  <title>My Manga Reader</title>
-</head>
-
-<body>
-  <!-- <style>
-    *,
+*,
     *:after,
     *:before {
       box-sizing: inherit;
@@ -119,38 +106,3 @@
       -webkit-appearance: none;
       margin: 0;
     }
-  </style> -->
-
-  <div class="reader">
-    <div id="frame" class="reader__frame">
-      <div id="pages" class="reader__content">
-      </div>
-    </div>
-
-    <div class="panel">
-      <div class="panel__controls">
-        <div class="panel__label"><span>Chapters</span></div>
-
-        <div class="panel__actions">
-          <form action="#" id="chapter-form" method="get">
-            <button id="chapter-next" class="panel__stepper" type="submit">&#8592</button>
-            <input id="chapter-input" class="panel__counter" type="number" name="chapter-num">
-            <button id="chapter-prev" class="panel__stepper" type="submit">&#8594</button>
-          </form>
-        </div>
-      </div>
-
-      <div class="panel__controls">
-        <div class="panel__label"><span>Pages</span></div>
-
-        <div class="panel__actions">
-          <button id="page-next" class="panel__stepper">&#8592</button>
-          <input id="page-display" class="panel__counter" type="number" name="chaper-num" id="page-display">
-          <button id="page-prev" class="panel__stepper">&#8594</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-
-</html>
